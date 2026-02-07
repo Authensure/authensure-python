@@ -25,7 +25,7 @@ class TestEnvelopesResource:
         """Test listing envelopes with status filter."""
         mock_api.get("/envelopes?status=DRAFT").mock(return_value=Response(200, json=[sample_envelope]))
         
-        envelopes = client.envelopes.list(status=EnvelopeStatus.DRAFT)
+        envelopes = client.envelopes.list(status="DRAFT")
         
         assert len(envelopes) == 1
         assert envelopes[0].status == EnvelopeStatus.DRAFT
