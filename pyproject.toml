@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "authensure"
-version = "1.0.0"
+version = "1.0.1"
 description = "Official Authensure SDK for Python - Electronic signature and document authentication platform"
 readme = "README.md"
 license = "MIT"

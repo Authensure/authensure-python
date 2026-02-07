@@ -1,7 +1,7 @@
 # Authensure Python SDK
 
-[![PyPI version](https://badge.fury.io/py/authensure.svg)](https://pypi.org/project/authensure/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/authensure.svg)](https://pypi.org/project/authensure/)
+[![PyPI version](https://img.shields.io/pypi/v/authensure)](https://pypi.org/project/authensure/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/authensure)](https://pypi.org/project/authensure/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official Python SDK for [Authensure](https://authensure.app) - the electronic signature and document authentication platform.
